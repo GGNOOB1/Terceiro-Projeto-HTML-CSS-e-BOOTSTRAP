@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 0, 0, 0.15);
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+/*Barra de navegação*/
+
+nav{
+    border: 0px solid black;
+    border: none;
+}
+
+#logo {
+    height: 80px;
+    margin: auto 1rem;
+}
+
+#title-logo {
+    font-size: x-large;
+}
+
+.navbar-expand-lg .navbar-nav {
+    padding: 0;
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;
+    margin: 0 3px;
+}
+
+.nav-item:hover {
+    margin: 5px;
+    border-bottom: 2px black solid;
+    border-radius: 10px;
+}
+
+/*Cabeçalho*/
+
+.header {
+    background-image: url('../images/bg4.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 31.25rem;
+}
+
+.header-title {
+    width: 70%;
+    text-align: center;
+    font-size: 2.18rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-title h1 {
+    margin: 5%;
+    color: white;
+    font-weight: lighter;
+}
+
+.header-image {
+    width: 22%;
+    text-align: center;
+}
+
+.header-image img {
+    height: 40rem;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.header a{
+    width: 120px;
+    font-size: 16px;
+}
+
+/*Header das séries*/
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.title-features {
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.title-features p {
+    font-size: 1.5rem;
+    opacity: 70%;
+    margin: 0 20%;
+}
+
+.title-features h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 1rem;
+    margin: 0 20%;
+}
+
+/*Configuração conteúdo das divs séries*/
+
+
+.features-mother {
+    background-color: #DAE4E9;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0, 0.18);
+}
+
+.features-mother:hover {
+    border: 2px solid #070141;
+    box-shadow: 0 4px #070141;
+}
+
+.features-itens {
+    border-top: 1px solid rgb(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    height: 130px;
+
+}
+
+.features-itens p {
+    color: black;
+    margin: 5px;
+}
+
+.features-itens h3 {
+    padding-top: 5px;
+    color: black;
+}
+
+.imgs-series {
+    padding: 5px 0;
+    width: 70%;
+}
+
+#orange {
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+}
+
+/*Layout séries-features bootstrap*/
+
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+/*Linhas horizontais*/
+
+.horizontal-row {
+    width: 100%;
+    margin: 100px auto;
+    border-top: 20px #070141 solid;
+    border-style: double;
+    border-radius: 20px;
+    opacity: 100;
+}
+
+#h-row-top {
+    width: 100%;
+    border-top: 20px #070141 solid;
+    border-style: double;
+    opacity: 100;
+    border-radius: 20px;
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/*Depoimento*/
+
+#testimonial {
+    height: auto;
+    background-color: #DAE4E9;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 9px #070141;
+    margin: 0 5px;
+}
+
+#testimonial h2 {
+    padding-top: 5rem;
+    margin: 0 3rem;
+    font-weight: bold;
+}
+
+#img-profile {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 100%;
+}
+
+.testimonial-profile {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2.5rem 0;
+}
+
+.testimonial-profile img {
+    margin-right: 1rem;
+}
+
+.testimonial-profile p {
+    margin: auto 0;
+}
+
+.testimonial-imgs {
+    margin-bottom: 30px;
+}
+
+.testimonial-imgs img {
+    margin-left: 3rem;
+    width: 10%;
+}
+
+.carousel-button {
+    margin: auto 0;
+}
+
+.testimonial-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    width: 80%;
+    height: 600px;
+
+}
+
+/*Section cards*/
+
+.title-card {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 0rem 0;
+}
+
+.title-card p {
+    padding: 2rem 0;
+    margin: 0;
+}
+
+.card {
+    background-color: #DAE4E9;
+    text-align: center;
+    margin: 5px;
+}
+
+.card p {
+    opacity: 70%;
+}
+
+.card h2 {
+    font-weight: bold;
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    background-color: #070141;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+#cta h3 {
+    color: white;
+    margin: 1rem 0;
+}
+
+#cta button {
+    margin: 1rem;
+}
+
+#footer {
+    background-color: white;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer i {
+    padding-right: 10px;
+}
+
+#footer p {
+    padding-top: 15px;
+}
+
+/*Medias Querys*/
+
+@media (max-width: 1280px) {
+
+    /*Responsividade no cabeçalho notebook*/
+
+    .header-image {
+        display: flex;
+        width: 20%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-image img {
+        height: 30rem;
+        width: auto;
+        padding: 1rem 0;
+        position: relative;
+    }
+}
+
+@media (max-width: 930px) {
+
+    /*Responsividade no cabeçalho ipad*/
+
+    .header-image {
+        width: 20%;
+    }
+
+    .header-image img {
+        height: 25rem;
+        width: auto;
+    }
+}
+
+@media (max-width: 770px) {
+
+    /*Responsividade no cabeçalho ipad 2.0*/
+
+    .header-image {
+        width: 30%;
+    }
+
+    .header-image img {
+        height: 23rem;
+        width: auto;
+    }
+}
+
+@media (max-width: 700px) {
+
+    /*Responsividade no cabeçalho celular*/
+
+    .header-title {
+        width: 100%;
+        font-size: 2.18rem;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    .header-image img {
+        height: 23rem;
+        width: auto;
+    }
+}
+
+/*Responsividade layout séries*/
+
+@media (max-width: 767px) {
+    
+    .features-mother{
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .header button{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .title-features p {
+        text-align: center;
+        margin: 0 10%;
+    }
+
+    /*Responsividade no carrossel celular*/
+
+    #testimonial h2 {
+        margin: 0 2rem;
+        font-size: 24px;
+    }
+
+    #img-profile {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+    }
+
+    .testimonial-profile {
+        margin: 3rem 2.5rem;
+    }
+
+    .testimonial-imgs img {
+        margin-left: 3rem;
+        width: 12%;
+    }
+
+    .testimonial-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto auto;
+        width: 90%;
+        height: 500px;
+
+    }
+}
